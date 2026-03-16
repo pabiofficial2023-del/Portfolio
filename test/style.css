@@ -1,0 +1,33 @@
+/* Basic section styling */
+.section {
+  overflow: hidden; /* prevent overflow during slide */
+  margin: 100px 0;
+}
+
+/* Heading letters start off-screen right */
+.section h2 span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(50px);
+  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+
+/* Paragraph starts off-screen left */
+.section p {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+/* Trigger heading letters animation */
+.section.in-view h2 span {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Trigger paragraph animation with delay after heading */
+.section.in-view p {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: calc(0.05s * var(--letters)); /* waits until heading finishes */
+}

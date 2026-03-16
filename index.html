@@ -3,99 +3,120 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IT Expert Portfolio</title>
+<title>Space Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-    <nav>
-        <h2 class="logo">MyPortfolio</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<header class="navbar">
 
-    <div class="hero">
-        <h1>Hello There, AAHAA... <span> It's sad but this Domain name is already taken.</span></h1>
-        <p>IT Expert | Web Developer | Creative Professional</p>
-        <a href="#contact" class="btn">Down down</a>
-    </div>
+<div class="logo"><a href="#home"><img src="./assets/p.m logo.png" alt="P.M Logo"></a> </div>
+
+<nav class="menu">
+<a href="#home" class="active">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#certifications">Certifications</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<button class="cta">Get Started</button>
+
 </header>
 
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am an IT professional with experience in web development, multimedia production,
-        and technical system management. I specialize in creating digital solutions,
-        producing visual content, and managing technical teams to deliver high-quality results.
-    </p>
+<section id="home" class="hero">
+<div class="slide active">
+<h1 class="title">Pioneer the<br>Future</h1>
+<p>Exploring new digital frontiers</p>
+</div>
+
+<div class="slide">
+<h1 class="title">Beyond<br>Limits</h1>
+<p>Creative technology experiences</p>
+</div>
+
+<div class="slide">
+<h1 class="title">Design<br>Innovation</h1>
+<p>Engineering immersive products</p>
+</div>
 </section>
 
 
-<section id="skills">
-    <h2>My Skills</h2>
-
-    <div class="skills-container">
-
-        <div class="skill-box">Web Development</div>
-        <div class="skill-box">Graphics Designing</div>
-        <div class="skill-box">Videography</div>
-        <div class="skill-box">Photography</div>
-        <div class="skill-box">Video Editing</div>
-        <div class="skill-box">Hardware Management</div>
-        <div class="skill-box">Team Leadership</div>
-        <div class="skill-box">Planning & Strategy</div>
-
-    </div>
+<section id="about" class="section">
+<h2>About</h2>
+<p>Lorem ipsum dolor sit amet.</p>
 </section>
 
 
-<section id="projects">
-    <h2>Projects</h2>
-
-    <div class="projects-container">
-
-        <div class="project-card">
-            <h3>Photography Portfolio</h3>
-            <p>Professional photography collection including events, portraits, and creative shoots.</p>
-        </div>
-
-        <div class="project-card">
-            <h3>Business Website</h3>
-            <p>Designed and developed responsive websites for businesses and startups.</p>
-        </div>
-
-        <div class="project-card">
-            <h3>Video Production</h3>
-            <p>Produced and edited promotional and social media videos.</p>
-        </div>
-
-    </div>
+<section id="skills" class="section">
+<h2>Skills</h2>
+<p>Lorem ipsum dolor sit amet.</p>
 </section>
 
 
-<section id="contact">
-    <h2>Contact Me</h2>
-
-    <form>
-        <input type="text" placeholder="Bala la la " required>
-        <input type="email" placeholder="Miniiiooonnnnn" required>
-        <textarea placeholder="Type your boring info Message"></textarea>
-        <button type="submit">Send It Now</button>
-    </form>
-
+<section id="experience" class="section">
+<h2>Experience</h2>
+<p>Lorem ipsum dolor sit amet.</p>
 </section>
 
 
-<footer>
-    <p>© 2026 Pirime minsister | IT Portfolio</p>
+<section id="certifications" class="section">
+<h2>Certifications</h2>
+<p>Lorem ipsum dolor sit amet.</p>
+</section>
+
+
+<section id="contact" class="section">
+<h2>Contact</h2>
+<p>Lorem ipsum dolor sit amet.</p>
+</section>
+
+<!-- <footer>
+<p></p>
+</footer> -->
+<footer class="footer">
+
+<div class="rocket-bg"></div>
+
+<p class="tagline">THE FUTURE OF DIGITAL WORLD. <br><br>© 2026 PABI MAHATO</p>
+
+<div class="divider-wrapper">
+<div class="divider"></div>
+</div>
+
+<div class="footer-bottom">
+
+<div class="links">
+<a href="#">FAQ</a>
+<a href="#">Gallery</a>
+<a href="#">Privacy Policy</a>
+<a href="#">Terms & Conditions</a>
+<a href="#">Cookie Notice</a>
+<a href="#" class="highlight">Statement</a>
+</div>
+
+<div class="icons">
+<i class="fab fa-instagram"></i>
+<i class="fab fa-x-twitter"></i>
+<i class="fab fa-youtube"></i>
+<i class="fab fa-facebook"></i>
+<i class="fab fa-tiktok"></i>
+<i class="fab fa-linkedin"></i>
+</div>
+
+</div>
+
 </footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
